@@ -1,6 +1,6 @@
 # number_converter
 
-TODO: Write a description here
+Number to text converter
 
 ## Installation
 
@@ -9,7 +9,7 @@ TODO: Write a description here
    ```yaml
    dependencies:
      number_converter:
-       github: your-github-user/number_converter
+       github: unknovvn/number_converter
    ```
 
 2. Run `shards install`
@@ -18,13 +18,14 @@ TODO: Write a description here
 
 ```crystal
 require "number_converter"
+
+...
+convertedText = NumberConverter.to_lithuanian(8) # aštuoni
+...
+
 ```
 
 TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
 
 ## Contributing
 
@@ -36,4 +37,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [your-name-here](https://github.com/your-github-user) - creator and maintainer
+- [Andžej Korovacki](https://github.com/unknovvn) - creator and maintainer
