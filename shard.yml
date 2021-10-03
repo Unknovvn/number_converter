@@ -1,5 +1,6 @@
 name: number_converter
 version: 0.1.0
+description: Number to text converter
 
 authors:
   - Andžej Korovacki <https://github.com/unknovvn>

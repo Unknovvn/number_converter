@@ -115,7 +115,7 @@ describe Lithuanian do
     Lithuanian.convert_number(8_000_000_000_000).should eq "aštuoni trilijonai"
     Lithuanian.convert_number(9_000_000_000_000).should eq "devyni trilijonai"
   end
-  
+
   it "correctly converts quadrillions" do
     Lithuanian.convert_number(1_000_000_000_000_000).should eq "vienas kvadrilijonas"
     Lithuanian.convert_number(2_000_000_000_000_000).should eq "du kvadrilijonai"
