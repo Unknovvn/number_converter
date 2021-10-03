@@ -2,6 +2,12 @@
 
 Number to text converter
 
+Languages implemented:
+- [x] Lithuanian
+- [ ] Polish
+- [ ] English
+- [ ] Russian
+
 ## Installation
 
 1. Add the dependency to your `shard.yml`:
@@ -24,8 +30,6 @@ convertedText = NumberConverter.to_lithuanian(8) # aštuoni
 ...
 
 ```
-
-TODO: Write usage instructions here
 
 ## Contributing
 
