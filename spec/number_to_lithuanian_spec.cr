@@ -56,6 +56,19 @@ describe NumberConverter do
     NumberConverter.to_lithuanian(90).should eq "devyniasdešimt"
   end
 
+  it "correctly converts dozens with units" do
+    NumberConverter.to_lithuanian(40).should eq "keturiasdešimt"
+    NumberConverter.to_lithuanian(41).should eq "keturiasdešimt vienas"
+    NumberConverter.to_lithuanian(42).should eq "keturiasdešimt du"
+    NumberConverter.to_lithuanian(43).should eq "keturiasdešimt trys"
+    NumberConverter.to_lithuanian(44).should eq "keturiasdešimt keturi"
+    NumberConverter.to_lithuanian(45).should eq "keturiasdešimt penki"
+    NumberConverter.to_lithuanian(46).should eq "keturiasdešimt šeši"
+    NumberConverter.to_lithuanian(47).should eq "keturiasdešimt septyni"
+    NumberConverter.to_lithuanian(48).should eq "keturiasdešimt aštuoni"
+    NumberConverter.to_lithuanian(49).should eq "keturiasdešimt devyni"
+  end
+
   it "correctly converts hundreds" do
     NumberConverter.to_lithuanian(100).should eq "vienas šimtas"
     NumberConverter.to_lithuanian(200).should eq "du šimtai"

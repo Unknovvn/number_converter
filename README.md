@@ -4,8 +4,8 @@ Number to text converter
 
 Languages implemented:
 - [x] Lithuanian
+- [x] English
 - [ ] Polish
-- [ ] English
 - [ ] Russian
 
 ## Installation
@@ -27,6 +27,7 @@ require "number_converter"
 
 ...
 convertedText = NumberConverter.to_lithuanian(8) # aštuoni
+convertedText = NumberConverter.to_english(8) # eight
 ...
 
 ```
